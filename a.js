@@ -1,1 +1,10 @@
-class MyComponent extend React
+class MyComponent extend React.Component {
+
+
+
+
+
+
+
+
+}
