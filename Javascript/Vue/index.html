@@ -8,9 +8,14 @@
 		<script src="js/Framework/vue.js"></script>
     </head>
     <body>
-    	<div id="app"></div>
+    	<div id="app">{{msg}}</div>
       <script>
-
+				new Vue({
+					el: '#app',
+					data: {
+						msg: 'Hello, Vue!'
+					}
+				})
 			</script>
     </body>
 </html>
