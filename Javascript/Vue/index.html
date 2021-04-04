@@ -12,8 +12,8 @@
 				<h1>{{msg}}</h1>
 				<input v-model="task" v-on:keyup.enter="handleKeyup" type="text" placeholder="Please input a task">
 				<ul>
-					<li v-for="li in list">
-					{{li}}
+					<li v-for="(li, i) in list">
+					{{li}} <button v-on:click="handleClick(i)">X</button>
 					</li>
 				</ul>
 			</div>
@@ -29,6 +29,9 @@
 						handleKeyup() {
 							this.list.push(this.task)
 							this.task = ''
+						},
+						handleClick(i) {
+							this.list.splice(i, 1)
 						}
 					}
 				})
