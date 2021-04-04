@@ -8,12 +8,25 @@
 		<script src="js/Framework/vue.js"></script>
     </head>
     <body>
-    	<div id="app">{{msg}}</div>
+    	<div id="app">
+				{{msg}}
+				<ul>
+					<li v-for="item in list">
+						{{item}}
+					</li>
+				</ul>
+			
+			</div>
       <script>
 				new Vue({
 					el: '#app',
 					data: {
-						msg: 'Hello, Vue!'
+						msg: 'Hello, Vue!',
+						list: [
+							'Node',
+							'Webpack',
+							'React'
+						]
 					}
 				})
 			</script>
