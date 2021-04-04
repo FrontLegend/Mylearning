@@ -10,23 +10,25 @@
     <body>
     	<div id="app">
 				{{msg}}
+				<input v-model="task" v-on:keyup.enter="handleKeyup" type="text" placeholder="Please input a task">
 				<ul>
-					<li v-for="item in list">
-						{{item}}
+					<li v-for="li in list">
+					{{li}}
 					</li>
 				</ul>
-			
 			</div>
       <script>
 				new Vue({
 					el: '#app',
 					data: {
 						msg: 'Hello, Vue!',
-						list: [
-							'Node',
-							'Webpack',
-							'React'
-						]
+						task: '',
+						list: []
+					},
+					methods: {
+						handleKeyup() {
+							this.list.push(this.task)
+						}
 					}
 				})
 			</script>
