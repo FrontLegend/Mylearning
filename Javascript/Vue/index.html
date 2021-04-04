@@ -16,18 +16,13 @@
 					<my-li title="b"></my-li>
 					<my-li title="c"></my-li>
 					<my-li title="d"></my-li>
-					<!-- 
-					<li v-for="(li, i) in list">
-						{{li}} <button v-on:click="handleClick(i)">X</button>
-					</li> 
-					//-->
 				</ul>
 			</div>
       <script>
 				Vue.component('my-li', {
 					props: ['title'],
 					template:
-						<li>{{title}}</li>
+						<li v-for="(li, i) in list">{{title}}</li><button v-on:click="handleClick(i)">X</button>
 				})
 				var vm = new Vue({
 					el: '#app',
