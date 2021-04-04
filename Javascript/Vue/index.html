@@ -21,8 +21,9 @@
       <script>
 				Vue.component('my-li', {
 					props: ['title'],
-					template:
+					template: '
 						<li v-for="(li, i) in list">{{title}}</li><button v-on:click="handleClick(i)">X</button>
+					'
 				})
 				var vm = new Vue({
 					el: '#app',
