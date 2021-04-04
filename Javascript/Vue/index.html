@@ -9,7 +9,7 @@
     </head>
     <body>
     	<div id="app">
-				{{msg}}
+				<h1>{{msg}}</h1>
 				<input v-model="task" v-on:keyup.enter="handleKeyup" type="text" placeholder="Please input a task">
 				<ul>
 					<li v-for="li in list">
