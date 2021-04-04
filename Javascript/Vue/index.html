@@ -13,11 +13,20 @@
 				<input v-model="task" v-on:keyup.enter="handleKeyup" type="text" placeholder="Please input a task">
 				<ul>
 					<li v-for="(li, i) in list">
-					{{li}} <button v-on:click="handleClick(i)">X</button>
+						<my-li title="a"></my-li>
+						<my-li title="b"></my-li>
+						<my-li title="c"></my-li>
+						<my-li title="d"></my-li>
+					<!-- {{li}} <button v-on:click="handleClick(i)">X</button> -->
 					</li>
 				</ul>
 			</div>
       <script>
+				Vue.component('my-li', {
+					props: ['title'],
+					template:
+						<li>{{title}}</li>
+				})
 				new Vue({
 					el: '#app',
 					data: {
