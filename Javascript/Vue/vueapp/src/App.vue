@@ -18,7 +18,13 @@ export default {
   },
   data () {
     return {
-      msg: 'Welcome'
+      msg: 'Welcome',
+      userlist: [
+			  {
+				   username: 'Li',
+           headerIcon: 'L'
+			  }
+			]
     }
   }
 }
