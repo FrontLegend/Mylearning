@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <chat-com></chat-com>
-	<userlist-com></userlist-com>
+		<userlist-com></userlist-com>
   </div>
 </template>
 
@@ -14,8 +14,7 @@ import userlistCom from '@/components/userlistcom.vue'
 export default {
   name: 'app',
   components: {
-    chatCom,
-	userlistCom
+    chatCom,userlistCom
   }
 }
 </script>
