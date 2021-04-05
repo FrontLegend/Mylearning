@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+		<h1>{{msg}}</h1>
     <chat-com></chat-com>
 		<userlist-com></userlist-com>
   </div>
@@ -15,7 +16,12 @@ export default {
   name: 'app',
   components: {
     chatCom,userlistCom
-  }
+  },
+  data(){
+		return {
+			msg: 'Welcome'
+		}
+	}
 }
 </script>
 
