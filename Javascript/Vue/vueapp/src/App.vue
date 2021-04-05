@@ -7,6 +7,8 @@
 </template>
 
 
+
+
 <script>
 // @ is an alias to /src
 import chatCom from '@/components/chatcom.vue'
