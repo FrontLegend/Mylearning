@@ -1,13 +1,10 @@
 <template>
   <div id="app">
-		<h1>{{msg}}</h1>
+    <h1>{{msg}}</h1>
     <chat-com></chat-com>
-		<userlist-com></userlist-com>
+    <userlist-com></userlist-com>
   </div>
 </template>
-
-
-
 
 <script>
 // @ is an alias to /src
@@ -17,13 +14,13 @@ import userlistCom from '@/components/userlistcom.vue'
 export default {
   name: 'app',
   components: {
-    chatCom,userlistCom
+    chatCom, userlistCom
   },
-  data(){
-		return {
-			msg: 'Welcome'
-		}
-	}
+  data () {
+    return {
+      msg: 'Welcome'
+    }
+  }
 }
 </script>
 
