@@ -31,5 +31,13 @@ li {
 }
 a {
   color: #42b983;
+}           
+.userlist{
+  width: 300px;
+  height: 700px;
+  background: skyblue;
+}                     
+.userlist ul li{
+  display: flex;
 }
 </style>
