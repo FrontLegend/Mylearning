@@ -33,6 +33,10 @@ export default {
           username: "Zhao",
           headerIcon: "L",
         },
+        {
+          username: "Xu",
+          headerIcon: "L",
+        },
       ],
     };
   },
