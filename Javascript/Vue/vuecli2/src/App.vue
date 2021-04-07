@@ -65,7 +65,7 @@ export default {
   color: #2c3e50;
 }
 
-.content { 
+.content {
   width: @width;
   height: @height;
   display: flex;

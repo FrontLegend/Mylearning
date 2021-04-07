@@ -6,4 +6,4 @@ module.exports = {
       patterns: [path.resolve(__dirname, "./src/assets/less/global.less")],
     },
   },
-};  
+};
