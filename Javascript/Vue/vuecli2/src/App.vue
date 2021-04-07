@@ -1,17 +1,14 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
-<<<<<<< HEAD
     <div class="content">
       <chat-com></chat-com>
       <userlist-com :userlist="userlist"></userlist-com>
-    </div>                                                      
-=======
+    </div>
     <div class="conent">
       <chat-com></chat-com>
       <userlist-com :userlist="userlist"></userlist-com>
     </div>
->>>>>>> 956d364823d429f75a049330497fca1c62d3abb8
   </div>
 </template>
 
@@ -19,6 +16,35 @@
 // @ is an alias to /src
 import chatCom from "@/components/chatcom.vue";
 import userlistCom from "@/components/userlistcom.vue";
+   
+//éæä¿ç¨
+  export default {
+    metaInfo: {
+      title: 'This is the test',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width' }
+      ]
+    }
+   
+}
+//å¨æä¿ç¨
+ metaInfo () {
+      return {
+        title: this.title,
+        meta: [
+          { vmid: 'description', name: 'description', content: this.description }
+        ]
+      }
+    },
+
+
+
+
+
+
+
+
 
 export default {
   name: "app",
@@ -59,8 +85,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}     
-.content{
+}
+.content {
   display: flex;
   width: 800px;
   height: 700px;
