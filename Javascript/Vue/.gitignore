@@ -2,7 +2,7 @@
 node_modules
 /dist
 /vuecli2_bac
-
+.gitignore
 # local env files
 .env.local
 .env.*.local
