@@ -38,5 +38,17 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FrontLegend/Mylearning.git"
+  },
+  "author": "FrontLegend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrontLegend/Mylearning/issues"
+  },
+  "homepage": "https://github.com/FrontLegend/Mylearning#readme"
 }
