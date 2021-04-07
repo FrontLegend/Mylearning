@@ -16,37 +16,15 @@
 // @ is an alias to /src
 import chatCom from "@/components/chatcom.vue";
 import userlistCom from "@/components/userlistcom.vue";
-   
-//éæä¿ç¨
-  export default {
-    metaInfo: {
-      title: 'This is the test',
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width' }
-      ]
-    }
-   
-}
-//å¨æä¿ç¨
- metaInfo () {
-      return {
-        title: this.title,
-        meta: [
-          { vmid: 'description', name: 'description', content: this.description }
-        ]
-      }
-    },
 
-
-
-
-
-
-
-
-
-export default {
+export default { 
+  metaInfo: {
+    title: 'This is the test',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width' }
+    ]
+  },
   name: "app",
   components: {
     chatCom,
