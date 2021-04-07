@@ -17,13 +17,13 @@
 import chatCom from "@/components/chatcom.vue";
 import userlistCom from "@/components/userlistcom.vue";
 
-export default { 
+export default {
   metaInfo: {
-    title: 'This is the test',
+    title: "This is the test",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width' }
-    ]
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width" },
+    ],
   },
   name: "app",
   components: {
