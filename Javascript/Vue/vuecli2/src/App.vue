@@ -64,13 +64,8 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-.content {
-  display: flex;
-  width: 800px;
-  height: 700px;
-}
 
-.content {
+.content { 
   width: @width;
   height: @height;
   display: flex;

@@ -1,4 +1,3 @@
-/*
 const path = require("path");
 module.exports = {
   pluginOptions: {
@@ -7,5 +6,4 @@ module.exports = {
       patterns: [path.resolve(__dirname, "./src/assets/less/global.less")],
     },
   },
-};
-*/
+};  
