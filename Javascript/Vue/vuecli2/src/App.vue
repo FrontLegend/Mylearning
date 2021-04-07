@@ -1,10 +1,17 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
+<<<<<<< HEAD
     <div class="content">
       <chat-com></chat-com>
       <userlist-com :userlist="userlist"></userlist-com>
     </div>                                                      
+=======
+    <div class="conent">
+      <chat-com></chat-com>
+      <userlist-com :userlist="userlist"></userlist-com>
+    </div>
+>>>>>>> 956d364823d429f75a049330497fca1c62d3abb8
   </div>
 </template>
 
@@ -35,6 +42,10 @@ export default {
           username: "Zhao",
           headerIcon: "L",
         },
+        {
+          username: "Xu",
+          headerIcon: "L",
+        },
       ],
     };
   },
@@ -53,5 +64,12 @@ export default {
   display: flex;
   width: 800px;
   height: 700px;
+}
+
+.content {
+  width: @width;
+  height: @height;
+  display: flex;
+  overflow: hidden;
 }
 </style>

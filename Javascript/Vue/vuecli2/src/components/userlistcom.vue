@@ -31,13 +31,13 @@ li {
 }
 a {
   color: #42b983;
-}           
-.userlist{
-  width: 300px;
-  height: 700px;
+}
+.userlist {
+  width: @width * 30%;
+  height: @height;
   background: skyblue;
-}                     
-.userlist ul li{
+}
+.userlist ul li {
   display: flex;
 }
 </style>
