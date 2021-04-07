@@ -33,8 +33,8 @@ a {
   color: #42b983;
 }
 .userlist {
-  width: 300px;
-  height: 700px;
+  width: @width * 30%;
+  height: @height;
   background: skyblue;
 }
 .userlist ul li {

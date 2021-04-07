@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
-    <chat-com></chat-com>
-    <userlist-com :userlist="userlist"></userlist-com>
+    <div class="conent">
+      <chat-com></chat-com>
+      <userlist-com :userlist="userlist"></userlist-com>
+    </div>
   </div>
 </template>
 
@@ -50,5 +52,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.content {
+  width: @width;
+  height: @height;
+  display: flex;
+  overflow: hidden;
 }
 </style>
