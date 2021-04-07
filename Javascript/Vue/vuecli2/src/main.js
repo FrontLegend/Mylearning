@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 import "normalize.css/normalize.css";
-import Meta form "vue-meta";
+import Meta from "vue-meta";
 
 Vue.config.productionTip = false;
 
