@@ -62,6 +62,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+<<<<<<< HEAD
   color: #2c3e50;
 }
 
@@ -71,4 +72,10 @@ export default {
   display: flex;
   overflow: hidden;
 }
+=======
+  color: #2c3e50;   
+  margin: 0;
+  padding: 0;
+} 
+>>>>>>> 111ab65ec731fe129708cdb5a3342e68858424aa
 </style>
