@@ -1,3 +1,4 @@
+/*
 const path = require("path");
 module.exports = {
   pluginOptions: {
@@ -7,3 +8,4 @@ module.exports = {
     },
   },
 };
+*/
