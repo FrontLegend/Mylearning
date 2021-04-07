@@ -1,17 +1,14 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
-<<<<<<< HEAD
     <div class="content">
       <chat-com></chat-com>
       <userlist-com :userlist="userlist"></userlist-com>
-    </div>                                                      
-=======
+    </div>
     <div class="conent">
       <chat-com></chat-com>
       <userlist-com :userlist="userlist"></userlist-com>
     </div>
->>>>>>> 956d364823d429f75a049330497fca1c62d3abb8
   </div>
 </template>
 
